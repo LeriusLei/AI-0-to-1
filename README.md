@@ -81,6 +81,4 @@ GitHub Pages 使用 `.github/workflows/pages.yml` 构建和部署；仓库设置
 
 ## 许可与致谢
 
-沿用仓库已有的 [GPL-3.0 许可证](LICENSE)。课程、书籍、论文、外部代码及商标归各自作者所有，以原项目许可为准；这里只整理链接与学习介绍，不附带教材 PDF、数据集或模型权重。
-
 网站使用 MkDocs Material；文档组织参考 [CSStudyGuide](https://github.com/ZH1995/CSStudyGuide/)。第三方组件许可见 [THIRD_PARTY.md](THIRD_PARTY.md)。
