@@ -1,0 +1,56 @@
+[
+  {
+    "id": "agent_patterns",
+    "title": "Agentic Design Patterns · 设计模式",
+    "repo": "gtesei/agentic_design_patterns",
+    "legacy_id": "agent_patterns",
+    "replacement": "dlai_agentic",
+    "reason_zh": "与更完整的官方Agentic AI课程合并。",
+    "reason_en": "Replaced by the fuller official Agentic AI course."
+  },
+  {
+    "id": "nano_claudecode",
+    "title": "nano Claude Code · 编码 Agent",
+    "repo": "OpenLAIR/nano-claude-code",
+    "legacy_id": "nano_claudecode",
+    "replacement": "learn_claudecode",
+    "reason_zh": "与更完整的learn-claude-code重复。",
+    "reason_en": "Replaced by the more complete learn-claude-code tutorial."
+  },
+  {
+    "id": "worldmodels",
+    "title": "World Models · 经典 V / M / C",
+    "repo": "hardmaru/WorldModelsExperiments",
+    "legacy_id": "worldmodels",
+    "replacement": "dreamerv3",
+    "reason_zh": "经典论文在概览保留链接，主项目转DreamerV3。",
+    "reason_en": "Keep the historical paper as context; use DreamerV3 as the main project."
+  },
+  {
+    "id": "dw-joyrl",
+    "title": "JoyRL · RL 算法代码库",
+    "repo": "datawhalechina/joyrl",
+    "legacy_id": "dw-joyrl",
+    "replacement": "cleanrl",
+    "reason_zh": "保留更便于读算法与做基线的CleanRL/SB3。",
+    "reason_en": "Use CleanRL and SB3 for algorithm study and baselines."
+  },
+  {
+    "id": "dw-easysglang",
+    "title": "EasySGLang · Mini-SGLang 社区分支",
+    "repo": "PalanQu/easysglang",
+    "legacy_id": "dw-easysglang",
+    "replacement": "mini_sglang",
+    "reason_zh": "社区fork与官方mini-SGLang重复。",
+    "reason_en": "The community fork duplicates official mini-SGLang."
+  },
+  {
+    "id": "curator",
+    "title": "Curator",
+    "repo": "bespokelabsai/curator",
+    "legacy_id": null,
+    "replacement": "nemo_designer",
+    "reason_zh": "数据生成收敛到NeMo Data Designer与Distilabel。",
+    "reason_en": "Focus synthesis examples on NeMo Data Designer and Distilabel."
+  }
+]

@@ -1,0 +1,23 @@
+{% set current = page.url if page else 'index.html' %}
+{% set prefix = '../' * (current.split('/') | length - 1) %}
+{% if config.extra.language_code == 'zh' %}
+  {% set target = prefix ~ 'en/' ~ current %}
+  {% set label = 'EN' %}
+  {% set description = 'Read this page in English' %}
+  {% set code = 'en' %}
+{% else %}
+  {% set target = prefix ~ '../' ~ current %}
+  {% set label = '中文' %}
+  {% set description = '用中文阅读本页' %}
+  {% set code = 'zh' %}
+{% endif %}
+<div class="md-header__option">
+  <a class="md-header__button ai-language" href="{{ target }}" hreflang="{{ code }}" lang="{{ code }}" aria-label="{{ description }}" data-ai-language-switch>
+    {% include '.icons/material/translate.svg' %}<span>{{ label }}</span>
+  </a>
+</div>
+<div class="md-header__option">
+  <a class="md-header__button ai-github" href="https://github.com/LeriusLei/AI-0-to-1" aria-label="AI 0 to 1 on GitHub — Star" title="AI 0 to 1 on GitHub — Star">
+    {% include '.icons/fontawesome/brands/github.svg' %}<span>GitHub ★</span>
+  </a>
+</div>

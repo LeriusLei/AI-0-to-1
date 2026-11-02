@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Google ML Glossary",
+    "url": "https://developers.google.com/machine-learning/glossary",
+    "used_for": "Searchable definitions and thematic tags.",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "Hugging Face Transformers Glossary",
+    "url": "https://huggingface.co/docs/transformers/glossary",
+    "used_for": "Implementation-oriented examples and distinctions.",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "Transformer Explainer",
+    "url": "https://poloclub.github.io/transformer-explainer/",
+    "used_for": "Connect a mechanism to an interactive numeric view.",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "MLU Explain",
+    "url": "https://mlu-explain.github.io/",
+    "used_for": "Concrete visual examples for classical ML.",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "PAIR AI Explorables",
+    "url": "https://pair.withgoogle.com/explorables/",
+    "used_for": "Interactive explanations of representation, fairness and privacy.",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "TRL GRPO",
+    "url": "https://huggingface.co/docs/trl/grpo_trainer",
+    "used_for": "Current implementation variants and reward normalization.",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "TRL Distillation",
+    "url": "https://huggingface.co/docs/trl/distillation_trainer",
+    "used_for": "Student-generated prefixes and teacher feedback.",
+    "checked": "2026-11-01"
+  }
+]

@@ -1,0 +1,28 @@
+# Generated bilingual documents and static website
+/docs/
+/docs_en/
+/site/
+/mkdocs.yml
+/mkdocs.en.yml
+/data/content_report.json
+/data/knowledge.json
+
+# Local build environments and private state
+.tools/
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+/qa/
+/research/
+*.zip
+*.log
+*progress*.json
+task_plan.md
+findings.md
+progress.md
+.DS_Store
+Thumbs.db

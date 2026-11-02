@@ -1,0 +1,32 @@
+[
+  {
+    "title": "roadmap.sh · AI and Data Scientist",
+    "url": "https://roadmap.sh/ai-data-scientist",
+    "used_for": "基础、数据、机器学习与实践的整体路线。",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "roadmap.sh · AI Engineer",
+    "url": "https://roadmap.sh/ai-engineer",
+    "used_for": "模型应用与AI工程路线。",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "Andrej Karpathy · Zero to Hero",
+    "url": "https://karpathy.ai/zero-to-hero.html",
+    "used_for": "从反向传播、字符模型逐步构建GPT。",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "Sebastian Raschka · Learning Paths",
+    "url": "https://sebastianraschka.com/start-here/",
+    "used_for": "基础LLM与推理/后训练的分层。",
+    "checked": "2026-11-01"
+  },
+  {
+    "title": "Full Stack Deep Learning",
+    "url": "https://fullstackdeeplearning.com/course/2022/",
+    "used_for": "数据、实验、部署、监控的工程流程。",
+    "checked": "2026-11-01"
+  }
+]

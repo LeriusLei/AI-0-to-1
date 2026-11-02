@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="AI 0 to 1 — Learn the foundations. Build real AI.">
+  <rect width="1200" height="630" fill="#f4f8fb"/>
+  <rect x="70" y="76" width="62" height="7" rx="3.5" fill="#0077a4"/>
+  <text x="70" y="220" font-family="Arial,sans-serif" font-size="98" font-weight="700" letter-spacing="-4" fill="#152c3e">AI 0 to 1</text>
+  <text x="74" y="287" font-family="Arial,sans-serif" font-size="33" fill="#446171">Learn the foundations. Build real AI.</text>
+  <g font-family="Arial,sans-serif" font-size="22" fill="#0077a4">
+    <text x="74" y="370">Courses</text><text x="252" y="370">Projects</text><text x="430" y="370">Books</text><text x="608" y="370">Knowledge Bingo</text>
+  </g>
+  <path d="M76 420H1115" stroke="#c5d9e3" stroke-width="2"/>
+  <g fill="#0077a4"><circle cx="77" cy="420" r="7"/><circle cx="383" cy="420" r="7"/><circle cx="749" cy="420" r="7"/><circle cx="1115" cy="420" r="7"/></g>
+  <text x="74" y="498" font-family="Arial,sans-serif" font-size="22" fill="#446171">Programming &amp; Math → Deep Learning → Models &amp; Applications</text>
+  <text x="74" y="555" font-family="Arial,sans-serif" font-size="19" fill="#607d8b">Bilingual · Open source · Your own pace</text>
+</svg>
