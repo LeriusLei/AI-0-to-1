@@ -24,14 +24,14 @@
 
 ## 网站里有什么
 
-- **课程推荐**：大学公开课、官方教程与 Datawhale。每项都有先修、难度、适合人群和官网链接。
-- **开源项目**：在分类概览中比较用途、区别、运行条件和学习建议。
+- **课程推荐**：大学公开课、官方教程与 Datawhale。33 个条目附 B 站入口，标明年份、字幕及是否为部分讲解。
+- **开源项目**：按“想学什么 → 选哪个 → 能做什么”比较用途和区别，区分合成数据、数据处理与推理系统。
 - **书目推荐**：按阶段补数学、推导和代码参考。
 - **AI 知识 Bingo**：345 个术语、16 个主题，含例子、易混点、相关概念和 6 种数值交互。
 - **AI 商业认知**：Karpathy、Mollick、Sutton、Chip Huyen、Kevin Kelly，以及 OpenAI / Anthropic 官方研究。
 - **中英切换与搜索**：同一页面切换语言；站内搜索也能直接找到术语。外部资料保持原作者的语言。
 
-当前目录含 **53 个课程条目、62 个项目、13 本技术书**。其中 CS239A 仍是待核对的课程编号。商业认知栏目另收录 11 项阅读资料。数量和项目 Star 是编辑快照，更新以原站为准。
+当前目录含 **51 个课程条目、62 个项目、13 本技术书**。商业认知栏目另收录 11 项阅读资料。数量和项目 Star 是编辑快照，更新以原站为准。
 
 阅读圆圈的勾选记录只保存在自己的浏览器里，可导入、导出备份。网站不需要账号，不上传阅读进度，也不内置访问统计。
 
@@ -57,6 +57,8 @@ python -m http.server 8000 --directory site
 | 位置 | 用途 |
 | --- | --- |
 | `data/catalog.json` | 课程、项目、书籍与双语条目 |
+| `data/bilibili_resources.json` | B 站视频、字幕、版本与对应范围 |
+| `scripts/navigation_content.py` | 学习目标、起点与项目实践结果 |
 | `data/knowledge_seed.json`、`scripts/bingo_*.py` | 术语内容、补充和英文讲解 |
 | `data/framework_sources.json` | 学习框架参考来源 |
 | `scripts/render_bilingual.py`、`scripts/site_pages.py` | 导航、路线与工具说明 |
@@ -68,6 +70,7 @@ python -m http.server 8000 --directory site
 ```bash
 python scripts/verify_bilingual.py
 python scripts/verify_bingo.py
+python scripts/verify_learning.py
 python scripts/verify_public.py
 ```
 

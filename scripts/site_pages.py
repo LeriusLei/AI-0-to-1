@@ -14,6 +14,23 @@ body{font-family:Arial,"Microsoft YaHei",sans-serif}
 .ai-github{display:inline-flex;align-items:center;gap:.3rem;min-height:36px;font-size:.7rem;font-weight:600;white-space:nowrap}
 .ai-github svg{width:1rem;height:1rem;fill:currentColor}
 @media(max-width:480px){.ai-github span{display:none}}
+.resource-table td:first-child{font-weight:600}
+@media(max-width:640px){
+ .resource-table .md-typeset__table{display:block!important;padding:0!important;margin:0!important}
+ .md-typeset .resource-table table:not([class]){display:block;width:100%;min-width:0;box-shadow:none;border:0;font-size:.77rem}
+ .resource-table thead{display:none}
+ .resource-table tbody,.resource-table tr,.resource-table td{display:block!important;width:100%!important;min-width:0!important;max-width:100%}
+ .resource-table tr{border:1px solid var(--md-default-fg-color--lightest);border-radius:8px;margin:0 0 16px;overflow:hidden}
+ .md-typeset .resource-table td{border:0!important;padding:9px 14px!important;overflow-wrap:anywhere}
+ .resource-table td:first-child{padding-top:14px!important;font-size:.86rem}
+ .resource-table td:last-child{padding-bottom:14px!important;color:var(--md-default-fg-color--light)}
+ .resource-table td:nth-child(3):before{content:'能做什么：';font-weight:600;color:var(--md-default-fg-color)}
+ html[lang=en] .resource-table td:nth-child(3):before{content:'Outcome: '}
+ .resource-table.course td:nth-child(2):before{content:'适合：';font-weight:600}
+ html[lang=en] .resource-table.course td:nth-child(2):before{content:'For: '}
+ .resource-table.course td:nth-child(3):before{content:'学到什么：'}
+ html[lang=en] .resource-table.course td:nth-child(3):before{content:'Covers: '}
+}
 '''
 
 def write_tools(write,T):
@@ -145,7 +162,7 @@ Search with a resource name and a concept, such as “CS336 tokenizer” or “F
 def write_coverage(write,T,R,D,changes,link):
     counts={k:sum(r['kind']==k for r in R.values()) for k in ['course','project','book']}
     text='# '+T('收录与来源','Sources and Selection')+'\n\n'
-    text+=T(f"{counts['course']}个课程条目、{counts['project']}个项目、{counts['book']}本书。CS239A仍待确认。",f"{counts['course']} course entries, {counts['project']} projects and {counts['book']} books. CS239A remains unidentified.")+'\n\n'
+    text+=T(f"{counts['course']}个课程条目、{counts['project']}个项目、{counts['book']}本书。",f"{counts['course']} course entries, {counts['project']} projects and {counts['book']} books.")+'\n\n'
     text+='## '+T('取舍','Selection')+'\n\n'
     text+=T('按教学完整性、官方维护与项目分工筛选。删除了部分重复的小实现；数学直觉、小模型和JEPA等有明确学习用途的项目继续保留。','Resources are selected for teaching value, official maintenance and distinct roles. Several duplicate implementations were removed; small-model and research implementations remain when they serve a clear learning purpose.')+'\n\n'
     for x in changes:text+='- '+x['title'].split(' · ')[0]+' → '+link(x['replacement'])+'：'+x['reason_zh' if T(True,False) else 'reason_en']+'\n'
@@ -153,6 +170,8 @@ def write_coverage(write,T,R,D,changes,link):
     text+=T('公共代码主线为PyTorch→自动微分→tiny GPT→CS336 A1，再按模型训练、应用、系统或机器人方向展开。课程和项目按依赖关系衔接，相近材料提供选择建议。','The shared implementation path runs from PyTorch through autodiff and tiny GPT to CS336 A1, followed by model training, applications, systems or robotics. Prerequisites connect courses and projects; overviews help choose between overlapping resources.')+'\n\n'
     text+=T('MiniMind、MedicalGPT、Hermes、DeepSeek-V3、MCP、DeepSpeed、FSDP与Diffusion Course已对应到相关分类。OpenCode/Pi放在工具页；Gemini Robotics作为研究参考。','MiniMind, MedicalGPT, Hermes, DeepSeek-V3, MCP, DeepSpeed, FSDP and the Diffusion Course are placed in their relevant tracks. OpenCode/Pi appear under tools; Gemini Robotics is a research reference.')+'\n\n'
     text+='## '+T('版本与来源','Versions and attribution')+'\n\n'
+    text+=T('2026-11-05：撤下“评测、部署与MLOps”课程分类。FSDL 2022退出当前推荐，LLM Bootcamp保留为2023年AI应用概览；未定位的CS239A退出课程目录。评测工具按模型基准、应用测试和实验记录分别介绍。','2026-11-05: removed the Evaluation, Deployment and MLOps course category. FSDL 2022 is no longer recommended; LLM Bootcamp remains a 2023 application overview. The unidentified CS239A entry is removed. Evaluation tools are distinguished by benchmarks, application tests and experiment tracking.')+'\n\n'
+    text+='['+T('B站视频汇总与字幕说明','Bilibili videos and subtitle notes')+'](courses/bilibili.md)\n\n'
     text+=T('GitHub数字为2026-11-01的接口快照，不自动更新。部分Datawhale章节状态沿用2026-10-24记录，最新发布见原站。I-JEPA归档状态已标注。','GitHub counts are a snapshot from 2026-11-01 and do not update automatically. Some Datawhale publication notes retain the 2026-10-24 check; follow the source for subsequent releases. I-JEPA is marked as archived.')+'\n\n'
     text+=T('结构参考','Structure reference: ')+' [CSStudyGuide](https://github.com/ZH1995/CSStudyGuide/); '+T('采用MkDocs Material，介绍、比较与双语内容独立编写。','built with MkDocs Material. Descriptions, comparisons and bilingual content are independently written.')+'\n'
     write('coverage.md',text)

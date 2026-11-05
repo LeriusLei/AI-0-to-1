@@ -1,0 +1,549 @@
+{
+  "checked_at": "2026-11-05",
+  "reviewed_course_count": 53,
+  "method_zh": "逐项检索课程名，并对照投稿页标题、简介、分集或课程官方README。字幕类型按投稿页标注记录，不代表逐集校验字幕；部分页面有412访问限制。",
+  "method_en": "Per-course searches checked posting titles, descriptions, chapter lists or official README links. Subtitle labels reflect posting metadata, not a frame-by-frame review; some pages impose HTTP 412 access limits.",
+  "courses": {
+    "cs50": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bkvQBEEUz/",
+          "label_zh": "2026版 · 中英字幕",
+          "label_en": "2026 edition; Chinese/English subtitles",
+          "note_zh": "投稿页标注CS50x 2026；按官网当年作业学习。",
+          "note_en": "Listed as CS50x 2026; use that edition's assignments."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs50p": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fFyJBFE92/",
+          "label_zh": "CS50P · 中英字幕",
+          "label_en": "CS50P; Chinese/English subtitles",
+          "note_zh": "Python课程合集；与CS50x计算机导论区分。",
+          "note_en": "Python-focused recording, distinct from CS50x."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "pytorch": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Vf4y1E7qT/",
+          "label_zh": "官方培训配套 · 双语字幕",
+          "label_en": "Training companion; bilingual subtitles",
+          "note_zh": "较早的官方培训转载，配合Learn the Basics文档；不是逐页对应的新版录像。",
+          "note_en": "An older official training recording, complementary to the current Learn the Basics documentation."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "zero_to_hero": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mqrTBvEaf/",
+          "label_zh": "Zero to Hero · 中英字幕",
+          "label_en": "Zero to Hero; Chinese/English subtitles",
+          "note_zh": "micrograd、makemore、GPT系列；合集以投稿页实际分集为准。",
+          "note_en": "micrograd, makemore and GPT series; consult the posted chapter list."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs229": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ec411r7Pa/",
+          "label_zh": "2018 · 双语CC字幕",
+          "label_en": "2018; bilingual CC subtitles",
+          "note_zh": "吴恩达2018课堂；不把录像当成当前学期作业版本。",
+          "note_en": "Andrew Ng's 2018 lectures; current assignments may differ."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs224n": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Eb411H7Pq/",
+          "label_zh": "2019 · 双语字幕",
+          "label_en": "2019; bilingual subtitles",
+          "note_zh": "适合词向量、序列模型和注意力基础；较新的LLM内容看官网。",
+          "note_en": "Covers embeddings, sequence models and attention; consult the course site for newer LLM content."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs336": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1z74Nz8E8E/",
+          "label_zh": "2025 · 中英字幕（部分）",
+          "label_en": "2025; bilingual subtitles, partial",
+          "note_zh": "核对到17讲，不能标为全课完结；其余讲次看官网录像。",
+          "note_en": "The visible listing has 17 lectures, not the full course; use official recordings for remaining lectures."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "csapp": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1iW411d7hd/",
+          "label_zh": "2015 · 精校中文字幕",
+          "label_en": "2015; edited Chinese subtitles",
+          "note_zh": "九曲阑干字幕项目，配套CSAPP第三版。",
+          "note_en": "The community subtitle project accompanies CSAPP, third edition."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "dlai_agentic": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rzWYzMEqf/",
+          "label_zh": "设计模式一节（部分）",
+          "label_en": "Design-patterns lecture; partial",
+          "note_zh": "对应Module 1中的设计模式讲解；不替代整门Agentic AI课，字幕未确认。",
+          "note_en": "A Module 1 design-patterns excerpt, not the full Agentic AI course; subtitle language unconfirmed."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs329a": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1FSu26ZEvM/",
+          "label_zh": "自我改进Agent · 中文讲解/译配（部分）",
+          "label_en": "Self-improving agents; Chinese companion, partial",
+          "note_zh": "逐讲解读系列，核对到6期；不标成完整原课录像。",
+          "note_en": "A six-part lecture companion, not a confirmed complete original-course recording."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "fsdl": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV18m4y1q72E/",
+          "label_zh": "LLM Bootcamp 2023 · 中英字幕",
+          "label_en": "LLM Bootcamp 2023; bilingual subtitles",
+          "note_zh": "应用开发概览，代码接口和模型服务可能已变化。",
+          "note_en": "Application overview; APIs and model services may have changed."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs285": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1NjH4eYEyZ/",
+          "label_zh": "2023 · 中英字幕",
+          "label_en": "2023; Chinese/English subtitles",
+          "note_zh": "课内按小节拆分；配2023资料，不混用其他年份作业。",
+          "note_en": "Lectures split into short segments; pair with 2023 materials."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs224r": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV15E2SB7EzE/",
+          "label_zh": "2025春 · 中英字幕",
+          "label_en": "Spring 2025; bilingual subtitles",
+          "note_zh": "投稿页列18讲；覆盖模仿学习、策略梯度、离线RL。",
+          "note_en": "Posting lists 18 lectures, including imitation learning, policy gradients and offline RL."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "mit_diffusion": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1vzJwzAE7R/",
+          "label_zh": "2025 · 中英字幕",
+          "label_en": "2025; bilingual subtitles",
+          "note_zh": "对应MIT流匹配与扩散课，实验仍从官网Colab进入。",
+          "note_en": "MIT flow-matching and diffusion course; open lab notebooks from the official site."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "dw-leedl": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1JA411c7VT/",
+          "label_zh": "李宏毅2021 · 国语（Datawhale）",
+          "label_en": "Hung-yi Lee 2021; Mandarin, Datawhale",
+          "note_zh": "Datawhale投稿页说明已获授权，配LeeDL中文笔记。",
+          "note_en": "The Datawhale posting states authorization; pairs with the LeeDL notes."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "dw-solarge": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV14x4y1x7bP/",
+          "label_zh": "官方README配套专题",
+          "label_en": "Topic linked in the official README",
+          "note_zh": "仅为专题配套，不是So-Large-LM全课程录像；字幕未确认。",
+          "note_en": "A companion topic, not a complete So-Large-LM video course; subtitle language unconfirmed."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "dw-cookbook": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Bo4y1A7FU/",
+          "label_zh": "提示工程部分 · 中文字幕",
+          "label_en": "Prompt-engineering module; Chinese subtitles",
+          "note_zh": "官方仓库推荐，只对应Prompt Engineering模块。",
+          "note_en": "Linked by the official repository; covers the Prompt Engineering module only."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "dw-agents": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV17yimBsEDk/",
+          "label_zh": "Hello-Agents · 社区中文讲解（部分）",
+          "label_en": "Hello-Agents; partial Chinese companion",
+          "note_zh": "围绕教材的社区讲解，按章节选择；不是Datawhale全课官方录像。",
+          "note_en": "Community explanations of selected chapters, not an official complete recording."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "dw-easyrl": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1HZ4y1v7eX/",
+          "label_zh": "蘑菇书 · 中文配套讲解",
+          "label_en": "Easy-RL; Chinese companion",
+          "note_zh": "投稿页链接蘑菇书仓库；配合书中代码与章节阅读。",
+          "note_en": "Posting links the book repository; pair with its chapters and code."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "missing_semester": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1uc411N7eK/",
+          "label_zh": "2020 · 自制双语字幕",
+          "label_en": "2020; community bilingual subtitles",
+          "note_zh": "2020工具课；命令和软件版本可能与新版有差异。",
+          "note_en": "The 2020 course; commands and tools may differ from newer versions."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "mit1806": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1zx411g7gq/",
+          "label_zh": "Strang课堂 · 中英字幕",
+          "label_en": "Strang lectures; bilingual subtitles",
+          "note_zh": "经典线性代数课堂，练习按所选OCW版本配套。",
+          "note_en": "Classic linear algebra lectures; match exercises to the chosen OCW edition."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "mit1801": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV12r4y147RH/",
+          "label_zh": "18.01课堂 · 中英字幕（不同版本）",
+          "label_en": "18.01 lectures; bilingual, different edition",
+          "note_zh": "David Jerison的18.01课堂，并非18.01SC 2010全部短视频；SC练习看官网。",
+          "note_en": "David Jerison's 18.01 lectures, not the complete 2010 SC short-video set; use OCW for SC exercises."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "stat110": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1EE411Z7U9/",
+          "label_zh": "概率论 · 机翻中文字幕",
+          "label_en": "Probability; machine-translated Chinese subtitles",
+          "note_zh": "投稿页明确中文为机翻，术语与公式对照原讲义。",
+          "note_en": "The posting identifies machine translation; check terminology against the notes."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs188": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1X64y1i7hf/",
+          "label_zh": "2018 · 中英字幕",
+          "label_en": "2018; bilingual subtitles",
+          "note_zh": "较早的伯克利课程录像；配套项目需选择同一学期。",
+          "note_en": "An older Berkeley recording; use projects from the same term."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "fastai": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Vh411o77L/",
+          "label_zh": "2020 · 中英字幕（旧版）",
+          "label_en": "2020; bilingual, older edition",
+          "note_zh": "适合概念补充；fastai接口与当前2022课程不同。",
+          "note_en": "Useful as a conceptual companion; APIs differ from the current 2022 course."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs231n": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Dx411n7UE/",
+          "label_zh": "2017 · 双语字幕",
+          "label_en": "2017; bilingual subtitles",
+          "note_zh": "适合CNN和视觉基础；不包含近年来全部多模态内容。",
+          "note_en": "CNN and vision foundations; not all recent multimodal material is covered."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs224w": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Cm4y197wx/",
+          "label_zh": "2021秋 · 中英字幕",
+          "label_en": "Autumn 2021; bilingual subtitles",
+          "note_zh": "图机器学习课堂；框架代码与作业按官网版本使用。",
+          "note_en": "Graph ML lectures; use the matching assignment and framework versions."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "cs236": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV17RwPezE7A/",
+          "label_zh": "2023课堂 · 字幕未确认",
+          "label_en": "2023 lectures; subtitles unconfirmed",
+          "note_zh": "投稿页对应Stefano Ermon课程，未确认中文字幕。",
+          "note_en": "The posting identifies Ermon's course; Chinese subtitles are not confirmed."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "dlsys": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ny411b7dJ/",
+          "label_zh": "2022 · 中英字幕",
+          "label_en": "2022; bilingual subtitles",
+          "note_zh": "自动微分、框架与算子实现课，配对应年份作业。",
+          "note_en": "Autodiff, frameworks and operators; pair with that year's assignments."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "bbb_linear": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ys411472E/",
+          "label_zh": "官方合集 · 双语字幕",
+          "label_en": "Official collection; bilingual subtitles",
+          "note_zh": "3Blue1Brown中国官方账号，16集列表。",
+          "note_en": "Official Chinese 3Blue1Brown account; 16 listed parts."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "bbb_calculus": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1qW411N7FU/",
+          "label_zh": "官方合集 · 双语字幕",
+          "label_en": "Official collection; bilingual subtitles",
+          "note_zh": "3Blue1Brown中国官方账号，11集列表。",
+          "note_en": "Official Chinese 3Blue1Brown account; 11 listed parts."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "bbb_nn": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV16x411V7Qg/",
+          "label_zh": "官方双语 · 反向传播与公式",
+          "label_en": "Official bilingual backpropagation and calculus",
+          "note_zh": "上篇讲反传直觉，下篇讲微积分推导；不是整个神经网络系列。",
+          "note_en": "Intuition and calculus derivation; not the entire neural-networks collection."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "pytorch_distributed": {
+      "status": "linked",
+      "items": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Kx4y187Te/",
+          "label_zh": "DDP / FSDP · 中文配套",
+          "label_en": "DDP/FSDP; Chinese companion",
+          "note_zh": "作者代码走读，主要讲FSDP1；FSDP2接口仍以官方教程为准。",
+          "note_en": "Author's code walkthrough, mainly FSDP1; use the official tutorial for FSDP2 APIs."
+        }
+      ],
+      "evidence": "posting_metadata"
+    },
+    "python_numpy": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "官方文档条目，未核对到逐页对应的B站课程。",
+      "note_en": "Documentation entry; no matching Bilibili course was verified."
+    },
+    "hf_llm": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "cs140": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "未找到可确认是Stanford CS140/Pintos的同课录像；未用其他操作系统课程替代。",
+      "note_en": "No verified Stanford CS140/Pintos recording; unrelated OS courses were excluded."
+    },
+    "hf_agents": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "cs329z": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "cs2680": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "cs258": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "未找到伯克利并行体系结构CS258的同课录像，已排除同名异课。",
+      "note_en": "No verified Berkeley parallel-architecture CS258 recording; same-number courses were excluded."
+    },
+    "dw-happy": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "检索到项目介绍，未核对到对应教材的完整授课合集。",
+      "note_en": "Project introductions were found, but no verified full teaching collection for the text."
+    },
+    "dw-scratch": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "dw-self": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "dw-universe": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "dw-rag": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "未核对到All-in-RAG同课完整合集，以官方中文教材为主。",
+      "note_en": "No verified matching All-in-RAG lecture collection; use the official Chinese text."
+    },
+    "dw-zerosglang": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "以代码走读文档为主，未核对到同课B站合集。",
+      "note_en": "Code-reading documentation; no matching Bilibili collection verified."
+    },
+    "dw-easyvibe": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "cs228": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "找到的Daphne Koller Coursera概率图课程不等同于此Ermon版CS228，暂不混放。",
+      "note_en": "The Koller Coursera course found is not this Ermon CS228 edition; not substituted."
+    },
+    "smol_course": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "hf_deeprl": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    },
+    "hf_diffusion": {
+      "status": "not_verified",
+      "items": [],
+      "note_zh": "暂未核对到同课B站授课合集；保留官网、中文教材或Notebook入口。",
+      "note_en": "No matching Bilibili teaching collection verified; use official text or notebook resources."
+    }
+  },
+  "retired_reviewed": [
+    "fsdl2022",
+    "cs239a_pending"
+  ]
+}

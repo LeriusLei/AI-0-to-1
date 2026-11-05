@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fsdl2022",
+    "title": "Full Stack Deep Learning 2022",
+    "en_title": "Full Stack Deep Learning 2022",
+    "url": "https://fullstackdeeplearning.com/course/2022/",
+    "reason_zh": "较早的通用深度学习工程课，撤出当前AI学习推荐。",
+    "reason_en": "An older general deep-learning engineering course; removed from current AI recommendations."
+  },
+  {
+    "id": "cs239a_pending",
+    "title": "CS239A · 编号待确认",
+    "en_title": "CS239A: Identification Pending",
+    "url": "",
+    "reason_zh": "学校、课名与官网尚未明确，撤出可学习课程列表。",
+    "reason_en": "Institution, title and official site are not established; removed from the actionable course list."
+  }
+]

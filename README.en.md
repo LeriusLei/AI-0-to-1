@@ -18,14 +18,14 @@ Specializations cover pretraining, synthetic data, SFT/LoRA, DPO/GRPO, RAG, agen
 
 ## What's inside
 
-- **Courses:** university courses, official tutorials and Datawhale, with prerequisites, difficulty, audience and source links.
-- **Projects:** comparisons of purpose, design, setup and suggested use.
+- **Courses:** university courses, official tutorials and Datawhale. Bilibili links for 33 entries identify editions, subtitles and partial coverage.
+- **Projects:** choose by learning goal, implementation and practical outcome, with separate tracks for synthetic data, data preparation and inference systems.
 - **Books:** references for mathematics, derivations and implementations.
 - **Knowledge Bingo:** 345 terms across 16 topics, with examples, common confusions, related concepts and six numeric interactions.
 - **AI & Business:** Karpathy, Mollick, Sutton, Chip Huyen, Kevin Kelly, and official OpenAI and Anthropic research.
 - **Two languages and search:** switching preserves the current page; search also finds glossary terms. External materials retain their authors' languages.
 
-The catalog contains **53 course entries, 62 projects and 13 technical books**. CS239A remains an unidentified course code. AI & Business adds 11 readings. Counts and GitHub stars are editorial snapshots; consult original sites for updates.
+The catalog contains **51 course entries, 62 projects and 13 technical books**. AI & Business adds 11 readings. Counts and GitHub stars are editorial snapshots; consult original sites for updates.
 
 Reading marks stay in your browser and can be imported or exported. No account, progress uploads or built-in analytics are required.
 
@@ -47,13 +47,14 @@ Open [http://localhost:8000/en/](http://localhost:8000/en/). Built HTML also sup
 
 ## Edit and contribute
 
-Edit `data/catalog.json` for resources; `data/knowledge_seed.json` and `scripts/bingo_*.py` for the glossary; `scripts/render_bilingual.py`, `scripts/site_pages.py` and `scripts/business_pages.py` for site content; `web/` and `overrides/` for the interface. Generated docs, config files and `site/` are ignored.
+Edit `data/catalog.json` for resources; `data/bilibili_resources.json` for video editions and subtitles; `scripts/navigation_content.py` for learning goals and project outcomes; `data/knowledge_seed.json` and `scripts/bingo_*.py` for the glossary; `scripts/render_bilingual.py`, `scripts/site_pages.py` and `scripts/business_pages.py` for site content; `web/` and `overrides/` for the interface. Generated docs, config files and `site/` are ignored.
 
 After building, run:
 
 ```bash
 python scripts/verify_bilingual.py
 python scripts/verify_bingo.py
+python scripts/verify_learning.py
 python scripts/verify_public.py
 ```
 

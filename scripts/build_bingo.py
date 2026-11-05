@@ -39,7 +39,7 @@ SOURCE={
  'inference':('PyTorch · 分布式训练','PyTorch: distributed training','https://docs.pytorch.org/tutorials/distributed/home.html'),
  'evaluation':('Google · 机器学习术语','Google: Machine Learning Glossary','https://developers.google.com/machine-learning/glossary'),
 }
-COURSES={'math':['bbb_linear','bbb_calculus','mit1806'],'ml':['cs229','cs188'],'neural':['bbb_nn','pytorch','zero_to_hero'],'vision':['cs231n','cs224w'],'transformer':['cs224n','cs336'],'pretrain':['dw-happy','cs336'],'data':['cs336','nemo_designer','datasets'],'posttrain':['smol_course','trl'],'retrieval':['dw-rag','llamaindex'],'agents':['dw-agents','learn_claudecode'],'rl':['dw-easyrl','cs285'],'generative':['hf_diffusion','mit_diffusion'],'world':['cs285','vjepa2'],'robotics':['lerobot','openpi'],'inference':['dw-zerosglang','pytorch_distributed'],'evaluation':['fsdl2022','lmeval']}
+COURSES={'math':['bbb_linear','bbb_calculus','mit1806'],'ml':['cs229','cs188'],'neural':['bbb_nn','pytorch','zero_to_hero'],'vision':['cs231n','cs224w'],'transformer':['cs224n','cs336'],'pretrain':['dw-happy','cs336'],'data':['cs336','nemo_designer','datasets'],'posttrain':['smol_course','trl'],'retrieval':['dw-rag','llamaindex'],'agents':['dw-agents','learn_claudecode'],'rl':['dw-easyrl','cs285'],'generative':['hf_diffusion','mit_diffusion'],'world':['cs285','vjepa2'],'robotics':['lerobot','openpi'],'inference':['dw-zerosglang','pytorch_distributed'],'evaluation':['cs336','lmeval','deepeval']}
 FAMILIES=[
  'ai machinelearning deeplearning neuralnetwork search supervised',
  'neuralnetwork mlp parameter weight bias activation relu sigmoid gelu',

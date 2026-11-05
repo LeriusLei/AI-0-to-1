@@ -32,6 +32,7 @@ jobs:
         run: |
           python scripts/verify_bilingual.py
           python scripts/verify_bingo.py
+          python scripts/verify_learning.py
           python scripts/verify_public.py
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'

@@ -32,7 +32,7 @@
     ],
     [
       "rag",
-      "RAG与应用"
+      "RAG与AI应用"
     ],
     [
       "agents",
@@ -49,16 +49,16 @@
     [
       "systems",
       "计算机系统与AI系统"
-    ],
-    [
-      "engineering",
-      "评测、部署与MLOps"
     ]
   ],
   "project_groups": [
     [
       "basics",
-      "从零实现"
+      "模型原理与手写实现"
+    ],
+    [
+      "classical",
+      "搜索与经典AI"
     ],
     [
       "pretrain",
@@ -66,7 +66,11 @@
     ],
     [
       "data",
-      "数据处理与合成"
+      "训练数据处理"
+    ],
+    [
+      "synthesis",
+      "大模型合成数据"
     ],
     [
       "post",
@@ -82,7 +86,7 @@
     ],
     [
       "inference",
-      "推理与服务"
+      "推理系统（AI Infra）"
     ],
     [
       "vision",
@@ -106,7 +110,7 @@
     ],
     [
       "engineering",
-      "评测与MLOps"
+      "评测与实验管理"
     ]
   ],
   "entries": [
@@ -943,12 +947,12 @@
       "kind": "course",
       "group": "rag",
       "title": "Full Stack · LLM Bootcamp",
-      "summary": "讲Prompt、检索、应用架构、部署和LLMOps。它侧重产品与系统，不替代模型训练课程。",
+      "summary": "2023年的LLM应用开发概览，讲提示、检索增强、产品交互和LLMOps。适合补应用全貌；接口代码需对照当前文档，不作为独立评测或部署主课。",
       "level": 3,
       "prereq": "Python、LLM 基础与 Web API。",
       "language": "Python",
       "repo": "",
-      "url": "https://fullstackdeeplearning.com/llm-bootcamp/",
+      "url": "https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/",
       "links": [
         {
           "title": "课程官网",
@@ -968,7 +972,7 @@
       "audience": "已会调用模型，想理解LLM应用完整链路的人。",
       "en": {
         "title": "Full Stack: LLM Bootcamp",
-        "summary": "Covers prompting, retrieval, application architecture, deployment and LLMOps. Focuses on applications rather than training a foundation model.",
+        "summary": "A 2023 overview of LLM applications: prompting, retrieval, UX and LLMOps. Useful for the application landscape; check current APIs. Not a dedicated evaluation or deployment course.",
         "audience": "Builders moving from model calls to complete LLM applications.",
         "prereq": "Python and basic LLM APIs."
       }
@@ -3296,7 +3300,7 @@
     {
       "id": "distilabel",
       "kind": "project",
-      "group": "data",
+      "group": "synthesis",
       "title": "Distilabel",
       "summary": "用模型生成、评审和整理合成训练数据。",
       "level": 3,
@@ -4206,7 +4210,7 @@
     {
       "id": "aima_python",
       "kind": "project",
-      "group": "basics",
+      "group": "classical",
       "title": "AIMA Python",
       "summary": "经典AI教材的搜索、推断、规划与学习示例。",
       "level": 3,
@@ -4623,38 +4627,6 @@
       }
     },
     {
-      "id": "fsdl2022",
-      "kind": "course",
-      "group": "engineering",
-      "title": "Full Stack Deep Learning 2022",
-      "summary": "连接数据管理、训练、测试、部署与监控，补上模型之外的工程环节。",
-      "level": 3,
-      "provider": "FSDL",
-      "url": "https://fullstackdeeplearning.com/course/2022/",
-      "repo": "",
-      "links": [
-        {
-          "title": "课程网站与配套资源",
-          "url": "https://fullstackdeeplearning.com/course/2022/"
-        }
-      ],
-      "prereq": "深度学习与Python项目经验",
-      "language": "Python",
-      "entry": [],
-      "personal": "使用公开讲义、练习与小规模实现。",
-      "role": "reference",
-      "note": "",
-      "status": "",
-      "origin": "新增",
-      "audience": "能训练模型，想掌握实验、数据与部署流程的人。",
-      "en": {
-        "title": "Full Stack Deep Learning 2022",
-        "summary": "Connects data management, experimentation, testing, deployment and monitoring.",
-        "audience": "Learners moving from training models to maintaining ML systems.",
-        "prereq": "Python, deep learning and a basic training project."
-      }
-    },
-    {
       "id": "smol_course",
       "kind": "course",
       "group": "post",
@@ -4963,32 +4935,6 @@
       }
     },
     {
-      "id": "cs239a_pending",
-      "kind": "course",
-      "group": "llm",
-      "title": "CS239A · 编号待确认",
-      "summary": "目前尚未唯一定位学校、课程名称和官网，暂不编排为学习任务。",
-      "level": null,
-      "prereq": "待定位",
-      "language": "待定位",
-      "repo": "",
-      "url": "",
-      "links": [],
-      "entry": [],
-      "personal": "",
-      "role": "pending",
-      "note": "暂不排入学习顺序。",
-      "status": "编号待确认",
-      "origin": "公开收录",
-      "audience": "需要核对课程编号与来源的读者。",
-      "en": {
-        "title": "CS239A: Identification Pending",
-        "summary": "The institution, title and official site have not been uniquely identified. It is not assigned a place in the learning sequence.",
-        "audience": "Readers checking the identity of this recorded course code.",
-        "prereq": "Not yet identified."
-      }
-    },
-    {
       "id": "bbb_linear",
       "kind": "course",
       "group": "math",
@@ -5187,7 +5133,7 @@
     {
       "id": "nemo_designer",
       "kind": "project",
-      "group": "data",
+      "group": "synthesis",
       "title": "NeMo Data Designer",
       "url": "https://github.com/NVIDIA-NeMo/DataDesigner",
       "level": 3,
@@ -5225,7 +5171,7 @@
     {
       "id": "deepspeed",
       "kind": "project",
-      "group": "engineering",
+      "group": "post",
       "title": "DeepSpeed",
       "url": "https://github.com/deepspeedai/DeepSpeed",
       "level": 5,
